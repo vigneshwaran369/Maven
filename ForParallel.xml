@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Data" parallel ="methods" thread-count="4">
+	<test  name= "new Data">
+		<classes>
+			<class name ="com.testNG_YouTube.I_ParallelTesting"></class>
+		</classes>
+	</test>
+</suite>
